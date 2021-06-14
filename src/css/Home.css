@@ -1,0 +1,73 @@
+.btn-1{
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fb839e;
+  background-color: transparent;
+  line-height: 1.5;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.btn-1::after{
+  border-radius: 30px;
+}
+
+.home-section{
+  position: relative;
+}
+
+.home-section .full-screen{
+  padding: 50px 0;
+  min-height: 100vh;
+}
+
+.home-section .home-text,
+.home-section .home-img{
+  flex: 0 0 50%;
+  padding: 0 15px;
+}
+
+.home-section .home-text p{
+  font-family: 'Raleway', sans-serif;
+  color: var(--text-black-300);
+  font-size: 18px;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.home-section .home-text h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  color: var(--text-black-900);
+}
+
+.home-section .home-text h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--text-black-700);
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.home-section .home-text .btn-1{
+  margin-top: 30px;
+}
+
+.home-section .home-img .img-box{
+  max-width: 450px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.home-section .home-img .img-box img{
+  width: 100%;
+  border-radius: 50%;
+  border: 10px solid transparent;
+}
