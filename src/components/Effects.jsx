@@ -3,9 +3,9 @@ import '../css/Effects.css';
 
 function Effects() {
   return(
-    <div class="effect-wrap">
-      <div class="effect effect-1"></div>
-      <div class="effect effect-2">
+    <div className="effect-wrap">
+      <div className="effect effect-1"></div>
+      <div className="effect effect-2">
         <div></div><div></div><div></div><div></div><div></div><div>
         </div><div></div><div></div><div></div><div></div><div></div>
         <div></div><div></div><div></div><div></div><div></div>
@@ -13,7 +13,7 @@ function Effects() {
         <div></div><div></div><div></div><div></div><div></div>
         <div></div><div></div>
       </div>
-      <div class="effect effect-3"></div>
+      <div className="effect effect-3"></div>
     </div>
   );
 }

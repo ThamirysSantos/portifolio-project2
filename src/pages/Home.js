@@ -8,19 +8,19 @@ function Home() {
   return(
     <div>
       <Header />
-      <section class="home-section section">
+      <section className="home-section section">
         <Effects />
-        <div class="container">
-          <div class="row full-screen align-items-center">
-            <div class="home-text">
+        <div className="container">
+          <div className="row full-screen align-items-center">
+            <div className="home-text">
               <p>Hello</p>
               <h2>I'm Thamirys</h2>
               <h1>Web FullStack Developer</h1>
-              <a href="#" class="btn-1 outer-shadow houver-in-shadow">More About Me</a>
+              <a href="#" className="btn-1 outer-shadow houver-in-shadow">More About Me</a>
             </div>
-            <div class="home-img">
-              <div class="img-box inner-shadow">
-                <img src={Profile} class="outer-shadow" alt="profile" />
+            <div className="home-img">
+              <div className="img-box inner-shadow">
+                <img src={Profile} className="outer-shadow" alt="profile" />
               </div>
             </div>
           </div>
