@@ -1,0 +1,76 @@
+
+.skills-icons{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.skills-icons i{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  font-size: 30px;
+  text-align: center;
+  color: var(--text-black-600);
+  margin: 0 14px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  line-height: 60px;
+}
+
+.container-skills-icons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50px;
+  margin: 0 14px;
+}
+
+.container-skills-icons p{
+  font-size: 10px;
+}
+
+.skills-icons i:hover{
+  font-size: 45px;
+}
+
+.skills-icons .git{
+  color: rgb(207, 83, 25);
+}
+
+.skills-icons .linux{
+  color: black;
+}
+
+.skills-icons .html{
+  color: rgb(250, 64, 8);
+}
+.skills-icons .css{
+  color: rgb(29, 142, 247);
+}
+.skills-icons .js{
+  color: rgb(228, 206, 8);
+}
+.skills-icons .react{
+  color: rgb(11, 230, 230);
+}
+.skills-icons .cplus{
+  color: rgb(5, 29, 238);
+}
+
+.skills-icons .git{
+  color: rgb(207, 83, 25);
+}
+
+.skills-icons .mysql{
+  color: rgb(50, 61, 165);
+}
+.skills-icons .mongodb{
+  color: rgb(9, 75, 7);
+}
+
+.skills-icons label{
+  font-size: 10px;
+}
