@@ -62,7 +62,7 @@
 }
 
 .nav-menu ul li a.active{
-  color: #fb839e;
+  color: var(--skin-color);
 }
 
 .nav-menu ul li a::after{
