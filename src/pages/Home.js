@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Effects from '../components/Effects';
 import Profile from '../pictures/profile.jpg';
 import Header from '../components/Header';
@@ -16,7 +17,7 @@ function Home() {
               <p>Hello</p>
               <h2>I'm Thamirys</h2>
               <h1>Web FullStack Developer</h1>
-              <a href="#" className="btn-1 outer-shadow houver-in-shadow">More About Me</a>
+              <Link to="/" className="btn-1 outer-shadow houver-in-shadow">More About Me</Link>
             </div>
             <div className="home-img">
               <div className="img-box inner-shadow">
