@@ -3,9 +3,10 @@ import { Link } from 'react-router-dom';
 import Profile from '../pictures/profile.jpg';
 import Curriculo from '../cv.pdf';
 import Skills from '../components/Skills';
+import Experience from '../components/Experience';
+import Education from '../components/Education';
 import '../css/About.css';
 import '../css/FontAwesome.css';
-import Experience from '../components/Experience';
 
 function About() {
   const [ activeTab, setActiveTab ] = useState('skills');
@@ -26,7 +27,7 @@ function About() {
       case "experience":
         return(<Experience />);
       case "education":
-        return(<Skills />);
+        return(<Education />);
       default:
         break;
     }
@@ -46,9 +47,9 @@ function About() {
               <img src={Profile} className="outer-shadow" alt="profile" />
             </div>
             <div className="social-links">
-              <a href="#" className="outer-shadow houver-in-shadow instagram"><i className="fab fa-instagram"></i></a>
-              <a href="#" className="outer-shadow houver-in-shadow linkedin"><i className="fab fa-linkedin-in"></i></a>
-              <a href="#" className="outer-shadow houver-in-shadow github"><i className="fab fa-github"></i></a>
+              <a href="https://www.instagram.com/djthamysantos/?hl=pt-br" className="outer-shadow houver-in-shadow instagram"><i className="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/thamirysgoncalves/" className="outer-shadow houver-in-shadow linkedin"><i className="fab fa-linkedin-in"></i></a>
+              <a href="https://github.com/ThamirysSantos" className="outer-shadow houver-in-shadow github"><i className="fab fa-github"></i></a>
             </div>
           </div>
           <div className="about-info">

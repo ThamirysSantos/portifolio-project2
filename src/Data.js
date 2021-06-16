@@ -1,0 +1,68 @@
+import Profile from './pictures/profile.jpg';
+
+export const Projects = [
+  {
+    id: 1,
+    name: 'Project-1',
+    category: 'frontend',
+    imagePath: Profile,
+    detail: 'lalalallalalalalalallala',
+    tools: 'js, node, react',
+    date: '01/01/1999',
+    link: 'www.exemplo',
+  },
+  {
+    id: 2,
+    name: 'Project-2',
+    category: 'backend',
+    imagePath: Profile,
+    detail: 'lalalallalalalalalallala',
+    tools: 'js, node, react',
+    date: '01/01/1999',
+    link: 'www.exemplo',
+  },
+  {
+    id: 3,
+    name: 'Project-3',
+    category: 'frontend',
+    imagePath: Profile,
+    detail: 'lalalallalalalalalallala',
+    tools: 'js, node, react',
+    date: '01/01/1999',
+    link: 'www.exemplo',
+  },
+  {
+    id: 4,
+    name: 'Project-4',
+    category: 'backend',
+    imagePath: Profile,
+    detail: 'lalalallalalalalalallala',
+    tools: 'js, node, react',
+    date: '01/01/1999',
+    link: 'www.exemplo',
+  },
+  {
+    id: 5,
+    name: 'Project-5',
+    category: 'backend',
+    imagePath: Profile,
+    detail: 'lalalallalalalalalallala',
+    tools: 'js, node, react',
+    date: '01/01/1999',
+    link: 'www.exemplo',
+  },
+];
+
+export const icons = [
+  {class: 'fab fa-git-alt git', text: 'Git'},
+  {class: 'fab fa-linux linux', text: 'Linux' },
+  {class: 'fab fa-html5 html', text: 'HTML'},
+  {class: 'fab fa-css3-alt css', text: 'CSS'},
+  {class: 'fab fa-js js', text: 'JavaScript'},
+  {class: 'fab fa-react react', text: 'React.js'},
+  {class: 'fab fa-node-js node', text: 'Node.js'},
+  {class: 'fas fa-copyright', text: 'C'},
+  {class: 'fas fa-copyright cplus', text: 'C++'},
+  {class: 'fas fa-database mysql', text: 'MySQL'},
+  {class: 'fas fa-database mongodb', text: 'MongoDb'},
+];

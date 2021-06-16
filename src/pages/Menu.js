@@ -19,10 +19,10 @@ function Menu() {
       </button>
       <div className="nav-menu-inner">
         <ul>
-          <li><a href="#" className="inner-shadow active">home</a></li>
-          <li><Link to="/About"><a href="#" className="outer-shadow houver-in-shadow">about</a></Link></li>
-          <li><a href="#" className="outer-shadow houver-in-shadow">portifolio</a></li>
-          <li><a href="#" className="outer-shadow houver-in-shadow">contact</a></li>
+          <li><Link to="/" className="inner-shadow active">home</Link></li>
+          <li><Link to="/About" className="outer-shadow houver-in-shadow">about</Link></li>
+          <li><Link to="/Projects" className="outer-shadow houver-in-shadow">projects</Link></li>
+          <li><Link to="/Contact" className="outer-shadow houver-in-shadow">contact</Link></li>
         </ul>
       </div>
       <p className="copyright-text">&copy; 2021 Thamirys Gonçalves Santos</p>
